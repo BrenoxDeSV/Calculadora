@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  background-color: rgb(79, 95, 105);
+}
+
+.titulo{
+  cursor:default;
+  font-family: Arial;
+  font-size: 50px;
+  margin: 50px;
+  color: white;
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(51, 62, 76);
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 4px;
+  padding-top: 10px;
+  border: solid 3px rgb(43, 52, 64);
+}
+
+#resultado {
+  cursor:default;
+  font-family: arial;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(203, 220, 241);
+  width: 245px;
+  height: 52px;
+  margin-left: 5px;
+  margin-top: 13px;
+  border-radius: 6px;
+  border-radius: 5px;
+  border: solid 0px transparent;
+  border-bottom: solid 4px rgb(153, 188, 228);
+  border-left: solid 4px rgb(153, 188, 228);
+  text-align: right;
+  padding-right: 4px;
+  overflow-x:auto;
+  overflow-y:hidden;
+}
+
+::-webkit-scrollbar {
+  position: absolute;
+  height: 3px;
+}
+
+table {
+  padding: 15px;
+}
+
+button{
+  font-size: 25px;
+  background-color: rgb(56, 68, 84);
+  border-radius: 5px;
+  border: solid 0px transparent;
+  border-bottom: solid 3px rgb(43, 52, 64);
+  margin-inline-start: 3px;
+  color: white;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+
+button:hover{
+  font-size: 25px;
+  background-color: rgb(59, 72, 89);
+  border-radius: 5px;
+  border: solid 0px transparent;
+  border-bottom: solid 3px rgb(43, 52, 64);
+  margin-inline-start: 3px;
+  color: white;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+
+button:active{
+  font-size: 25px;
+  background-color: rgb(70, 85, 105);
+  border-radius: 5px;
+  border: solid 0px transparent;
+  margin-inline-start: 3px;
+  color: white;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
